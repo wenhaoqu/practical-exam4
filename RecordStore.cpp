@@ -2,7 +2,9 @@
 
 RecordStore::RecordStore()
 {
-
+	this->name = "";
+	this->address = "";
+	this->sales = 0;
 }
 
 RecordStore::RecordStore(string n, string a, int s)

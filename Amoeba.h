@@ -6,7 +6,8 @@ class Amoeba :
     public RecordStore
 {
 public:
-    Amoeba(string a) :RecordStore("Amoeba", a, 0)
+    Amoeba();
+    Amoeba(string a) : RecordStore("Amoeba", a, 0)
     {
         storeID = amoebaBranch;
         amoebaBranch++;

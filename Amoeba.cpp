@@ -2,6 +2,10 @@
 
 int Amoeba::amoebaBranch = 0;
 
+Amoeba::Amoeba()
+{
+}
+
 void Amoeba::set_storeID(int s)
 {
 	this->storeID = s;
